@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Area</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <p>Hello !</p>
+    <form action="index" method="POST">
+        Token:<input type="text" name="token"/> <input type="submit" value="Login"/>
+    </form>
+        <a th:href="${linkFacebook}">Click here for Facebook</a>
+        <a href="dropboxAuth">Click here for Dropbox</a>
+        <p th:utext="${dropboxResult}"/>
+    <a th:href="${linkTwitter}">Twitter</a>
+</body>
+</html>
