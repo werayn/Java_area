@@ -1,9 +1,10 @@
-Hello user, Welcome in my area project a little MVC project with spring and mongoDB.
+Hello user,
+Welcome in my area project a little MVC project with spring and mongoDB.
+Made in third years of Epitech.
 
 Build Area :
 
    mvn packages //For build
-
 Run Area :
 
    java -jar targer/[name file].jar
