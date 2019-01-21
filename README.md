@@ -1,31 +1,67 @@
-Hello user,
-Welcome in my area project a little MVC project with spring, mongoDB & Bootstrap.
-Made in third years of Epitech.
+# Java Area
+---
 
-Build Area :
+## Description
 
-   mvn packages //For build
-Run Area :
+Welcome !  
+This project is a IFTT like built with `Java`, `MongoDB` and `Spring`.  
+An applet is triggered by changes that occur within other web services such as Twitter, Facebook, ...   
+Using the APIs made available by these services.   
+I used a simple `bootstrap` template to generate the webview.
 
-   java -jar targer/[name file].jar
+## Getting started
 
+### Prerequisites
 
-If MongoDb failed to connect verified is install.
+#### Java / MVN / MongoDB
 
-On arch :
+Since it's a Java-Based project, due to `Spring` you need to install some stuff on your computer:
 
-   sudo pacman -S mongodb
+- Java 8(or more):
+  Follow the [install instructions for Java](https://www.java.com/fr/download/help/download_options.xml).
 
-   systemctl restart mongodb
+- MVN :
+  Follow the [installi instructions for mvn](https://maven.apache.org/install.html).
 
+- MongoDB:
+  Follow the [install intrusction for mongoDB](https://docs.mongodb.com/manual/installation/).
+---
 
-On debian :
+### Install the project
 
-   apt-get install mongodb
+First you need to clone the repository:
+Do not forget to upload your SSH Key into github and having the right access.
 
-   service restart mongodb
+```bash
+git@github.com:werayn/Java_area.git
+```
 
+```bash
+mvn packages 
+```
+install all the dependencies the project needs.
 
-On mac go to https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/
+### Run it
 
-On Windows go to https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/
+When everything is installed, if you want to run it, do the following:
+
+```bash
+java -jar target/[name file].jar
+```
+
+## Documentation
+
+Into the Doc folder you can find a simple `PDF`.  
+who describe the MVC model and the `Spring` framework.  
+
+## Authors
+
+* **Junique Virgile** - *Initial contributor* - [Junique Virgile](https://github.com/werayn)
+
+See also the list of [contributors](https://github.com/MM-IT/website/contributors) who participated in this project.
+
+## License
+
+This project is no licensed - it's a completely private project.
+
+---
