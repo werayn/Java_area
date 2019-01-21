@@ -1,5 +1,4 @@
 # Java Area
----
 
 ## Description
 
@@ -7,7 +6,8 @@ Welcome !
 This project is a IFTT like built with `Java`, `MongoDB` and `Spring`.  
 An applet is triggered by changes that occur within other web services such as Twitter, Facebook, ...   
 Using the APIs made available by these services.   
-I used a simple `bootstrap` template to generate the webview.
+I used a simple `bootstrap` template to generate the webview.  
+This project have been made during my 2nd years at Epitech
 
 ## Getting started
 
